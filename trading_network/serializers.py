@@ -2,7 +2,7 @@ from rest_framework import serializers
 from trading_network.models import Link
 
 
-class NetworkSerializers(serializers.ModelSerializer):
+class LinkSerializers(serializers.ModelSerializer):
     class Meta:
         model = Link
         fields = '__all__'
